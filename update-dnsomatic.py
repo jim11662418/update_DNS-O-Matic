@@ -20,10 +20,10 @@ for i in range (1,len(sys.argv)):
 logging.basicConfig(filename='/home/pi/scripts/update-dnsomatic.log', filemode='a', format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %H:%M:%S',level=logging.DEBUG)
 
 # username, password and hostname here.
-username='jim11662418@gmail.com'
-password='@m2U6RN0T1x!'
+username='********@gmail.com'
+password='********'
 hostname='all.dnsomatic.com'
-duckdnsname ='jim11662418.duckdns.org'
+duckdnsname ='********.duckdns.org'
 
 #See https://www.dnsomatic.com/wiki/api for explanation of the
 # following parameter values and options
@@ -56,7 +56,6 @@ while (duckdnsSuccess==False):
          print 'Attempt '+str(attempts)+'. The stored IP address from duckdns.org is:', lookup
          duckdnsSuccess=True
  
-
 dnsomaticSuccess=False
 attempts=0
 
