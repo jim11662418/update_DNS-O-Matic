@@ -16,7 +16,7 @@
 # IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #---------------------------------------------------------------------------------------------------------------------------------
 
-# cron runs This Python script at 15 minutes past each hour...
+# cron runs this Python script at 15 minutes past each hour...
     
 import datetime
 import time
